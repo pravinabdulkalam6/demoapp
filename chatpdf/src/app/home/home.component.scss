@@ -1,0 +1,93 @@
+.container {
+    background-image: url('/assets/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    ;
+
+
+
+    .top {
+        background-color: rgb(255 255 255 / 50%);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 30px;
+
+        p {
+            font-size: 14px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .span1 {
+
+            font-size: 16px;
+            font-weight: bold;
+            padding: 0;
+        }
+
+        .logo1 {
+            border-radius: 50%;
+            height: 24px;
+            width: 24px;
+            background-image: url("/assets/images/chatpd.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        .logo2 {
+            border-radius: 50%;
+            height: 24px;
+            width: 24px;
+            background-image: url("/assets/images/logo2.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+    }
+
+    //----------------------------------------------------------top
+    header {
+        display: flex;
+        flex-direction: column; 
+      align-items: center;
+      margin-bottom: 80px;
+
+        .h1 {
+            font-weight: 550;
+            font-size: 45px;
+            // text-align: center;
+            margin-bottom: 12px;
+            margin: 0%;
+            padding: 0;
+        }
+
+        .h3 {
+             font-size:20px;    
+             margin: 0;
+            padding: 0; 
+             color: rgba(0, 0, 0, 0.45);
+            //  text-align: center;
+            // display: block;
+            max-width: 600px;
+        }
+    }
+//-----------------------------------------header
+
+
+}
