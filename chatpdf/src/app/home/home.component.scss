@@ -15,9 +15,16 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         height: 50px;
 
+        .top1
+        {
+            display: flex;
+           justify-content: center;
+           margin: 0;
+          padding: 0;        
+        }
         p {
             font-size: 14px;
         }
@@ -58,6 +65,9 @@
             justify-content: center;
             margin-right: 10px;
         }
+        .head{
+            color:#1677ff;
+        }
     }
 
     //----------------------------------------------------------top
@@ -71,9 +81,7 @@
             font-weight: 550;
             font-size: 45px;
             // text-align: center;
-            margin-bottom: 12px;
-            margin: 0%;
-            padding: 0;
+            margin-bottom:12px;
         }
 
         .h3 {
@@ -81,8 +89,6 @@
              margin: 0;
             padding: 0; 
              color: rgba(0, 0, 0, 0.45);
-            //  text-align: center;
-            // display: block;
             max-width: 600px;
         }
     }
