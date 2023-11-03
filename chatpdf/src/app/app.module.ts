@@ -6,6 +6,8 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DialogModule } from 'primeng/dialog';
 import { ButtonModule } from 'primeng/button';
+import { FileUploadModule } from 'primeng/fileupload';
+import { ToastModule } from 'primeng/toast';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { ButtonModule } from 'primeng/button';
     AppRoutingModule,
     DialogModule,
     ButtonModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FileUploadModule,
+    ToastModule
   ],
   providers: [],
   bootstrap: [AppComponent]
